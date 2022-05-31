@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(10, 190, 214), rgb(48, 62, 143));
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: linear-gradient(#3333334d, #3333334d), url(../img/usgs-avlalgWTwoo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.location, .temperature {
+   height: 30vh;
+   width: 36%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section span{
+    margin: 10px;
+
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+.location h1{
+    font-size: 20px;
+}
+.weather_img{
+ height: 100px;
+}
